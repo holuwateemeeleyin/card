@@ -17,6 +17,7 @@
   height: 554px;
   background: #220c3f;
   border-radius: 5px;
+  font-family: "Inter";
 }
 .card img {
   margin-top: 1.3rem;
@@ -25,14 +26,16 @@
 }
 .card-title {
   margin-top: 1.2rem;
-  width: 20rem;
   color: rgba(255, 255, 255, 0.85);
   display: flex;
   justify-content: space-between;
   font-size: 20px;
+  font-family: "Inter";
+  font-weight: 600;
 }
 .nft-price {
   color: rgba(255, 255, 255, 0.9);
+  font-weight: 700;
 }
 .nft-desc {
   margin-top: -0.89rem;
@@ -40,9 +43,11 @@
   display: flex;
   justify-content: space-between;
   font-size: 12px;
+  font-weight: 600;
 }
 .button {
   font-size: 17px;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,4 +60,9 @@
     rgba(153, 115, 233, 0.8) 81.32%
   );
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: red;
 }
